@@ -15,7 +15,7 @@ const Projects = () => {
       <div>
   {PROJECTS.map((project, index) => (
     <a
-      href={project.githubLink} // Link do repozytorium GitHub
+      href={project.githubLink} 
       target="_blank"
       rel="noopener noreferrer"
       key={index}
